@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Portfolio</title>
+        <link href="assets/reset.css" type="text/css" rel="stylesheet"/>
+        <link href="assets/style.css" type="text/css" rel="stylesheet"/>
+    </head>
+
+    <body>
+    <center>
+        <div id="headbar">
+        </div>
+
+        <div id="wrapper">
+            <header id="header">
+                <div id="name-logo" class="teal_bg"><h1 class="header-text">Bradley Pulaski</h1></div>
+                <span id="top-links">
+                    <a class="default_font_color" href="index.html">About</a>
+                    <span class="divider"></span>
+                    <a class="default_font_color" href="portfolio.html">Portfolio</a>
+                    <span class="divider"></span>
+                    <a class="default_font_color" href="contact.html">Contact</a>
+                </span>
+            </header>
+            <section id="content">
+                <div id="main-content">
+                    <h2 class="subheader teal_font header-text">Portfolio</h2>
+                    <hr/>
+                    <table id="portfolio-table">
+                        <tr>
+                            <td>
+                                <img class="portfolio-image" src="images/portfolio/1.jpg" />
+                            </td>
+                            <td>
+                                <img class="portfolio-image" src="images/portfolio/2.jpg" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="portfolio-image" src="images/portfolio/3.jpg" />
+                            </td>
+                            <td>
+                                <img class="portfolio-image" src="images/portfolio/4.jpg" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="portfolio-image" src="images/portfolio/5.jpg" />
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="sidebar">
+                    <h2 class="subheader teal_font header-text">Connect with Me</h2>
+                    <hr/>
+                    <div id="social-images">
+                        <a target="_blank" href="https://github.com/linksys17"><img src="images/github.png" /></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/brad-pulaski-3a596ba5/"><img src="images/linkedin.png" /></a>
+                        <a target="_blank" href="https://stackoverflow.com/users/9008893/bradley-pulaski"><img id="stackoverflow" src="images/stackoverflow.png" /></a>
+                    </div>
+                </div>
+                <br style="clear:both;" />
+            </section>
+        </div>
+    </center>
+</body>
+<footer>
+    &copy; Copyright <span id="copyright_year"></span> Bradley Pulaski
+</footer>
+<script>
+    var year = new Date().getFullYear();
+    document.getElementById("copyright_year").innerHTML = year;
+</script>
+</html>
